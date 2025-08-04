@@ -1,0 +1,6 @@
+@csgrundlage.API_HostAddress = http://localhost:5285
+
+GET {{csgrundlage.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
