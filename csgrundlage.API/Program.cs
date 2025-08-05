@@ -1,3 +1,4 @@
+using csgrundlage.IoC.DependencyInjection;
 
 namespace csgrundlage.API
 {
@@ -12,6 +13,8 @@ namespace csgrundlage.API
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+
+            builder.Services.AddInfrastructure(builder.Configuration);
 
             var app = builder.Build();
 

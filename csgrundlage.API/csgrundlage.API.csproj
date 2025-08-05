@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\csgrundlage.Application\csgrundlage.Application.csproj" />
+    <ProjectReference Include="..\csgrundlage.IoC\csgrundlage.IoC.csproj" />
   </ItemGroup>
 
 </Project>
